@@ -1,0 +1,105 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-06-11T00:42:58.090Z",
+    "end": "2025-06-11T00:44:33.617Z",
+    "duration": 95527,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "8c656c3f-2aca-4d99-bc49-bd836df740ab",
+      "title": "",
+      "fullFile": "cypress\\e2e\\agodaBooking.cy.js",
+      "file": "cypress\\e2e\\agodaBooking.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "06f7059f-cd65-4719-afc5-3d00bb64e830",
+          "title": "agoda.com",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Flight Booking",
+              "fullTitle": "agoda.com Flight Booking",
+              "timedOut": null,
+              "duration": 94578,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "flightPage.visitHomePage();\nflightPage.fillFlightSearch();\nflightPage.selectFlightAndBook();\nflightPage.fillPassengerDetails();\nflightPage.proceedToPayment();\nflightPage.assertFinalReviewData();",
+              "err": {},
+              "uuid": "675d0365-05f6-4f10-b7ff-2d802ae9a70a",
+              "parentUUID": "06f7059f-cd65-4719-afc5-3d00bb64e830",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "675d0365-05f6-4f10-b7ff-2d802ae9a70a"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 94578,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports/html",
+        "overwrite": true,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}
